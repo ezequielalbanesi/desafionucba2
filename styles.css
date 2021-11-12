@@ -13,38 +13,25 @@
 
 body
 {
-     height: 1040px;
-     width: 90%;
-     background-color: var(--Dark-cyan);
-}
-.container{
+     background-image: url(images/bg-pattern-top.svg),
+     url(images/bg-pattern-bottom.svg);
+   background-position: -50% 50%, 130% -40%;
     
-     display: flex;
-     flex-wrap:wrap;
-      justify-content: left;
-}
-.top-img {
+   background-repeat: no-repeat, no-repeat;
+   background-color: var(--darkcyan);
+    
+     
     
 }
-.bottom-img{
-     justify-content: left;
-}
-.img{
-     height: 300px;
-     width: 100%;
 
-}
-@media only screen and (max-width: 375px) /* media de mobile*/
-{
-body{
-   
-}
-}
 
 .attribution 
     { font-size: 11px;
          text-align: center;
        
     }
-         .attribution a {color: hsl(228, 45%, 44%);
+         .attribution a 
+         {
+              color: hsl(228, 45%, 44%);
          } 
+     
