@@ -19,19 +19,42 @@ body
     
    background-repeat: no-repeat, no-repeat;
    background-color: var(--Dark-cyan);
-    
+
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+   align-items: center;
      
-    
 }
 
 
-.attribution 
-    { font-size: 11px;
-         text-align: center;
-       
-    }
-         .attribution a 
-         {
-              color: hsl(228, 45%, 44%);
-         } 
+
+.foto {
      
+     border-radius: 50px;
+}
+
+.data {
+     justify-content: center;
+     align-items: center;
+     margin-top: 10px;
+}
+
+.cuadrado {
+     height: 450px;
+     width: 350px;
+     background: white;
+     border-radius: 15px;
+     display: flex;
+     flex-direction: row ;
+     justify-content: center;
+     margin-top: 100px;
+     
+}
+
+.subfondo {
+
+   height: 20px;
+   width: 100px;
+   
+}
