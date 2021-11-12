@@ -3,17 +3,41 @@
      --Dark-cyan: hsl(185, 75%, 39%);
 --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
 --Dark-grayish-blue: hsl(227, 10%, 46%);
+--Dark-gray: hsl(0, 0%, 59%);
+}
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
 }
 
+body
+{
+     height: 1040px;
+     width: 90%;
+     background-color: var(--Dark-cyan);
+}
+.container{
+    
+     display: flex;
+     flex-wrap:wrap;
+      justify-content: left;
+}
+.top-img {
+    
+}
+.bottom-img{
+     justify-content: left;
+}
+.img{
+     height: 300px;
+     width: 100%;
 
-@media only screen and (min-width: 375px) /* media de mobile*/
+}
+@media only screen and (max-width: 375px) /* media de mobile*/
 {
 body{
-     background-color: var(--Very-dark-desaturated-blue);
-     background-image: url(images/bg-pattern-top.svg);
-     background-repeat: no-repeat;
-     background-image: url(images/bg-pattern-bottom.svg);
-     background-repeat: no-repeat;
+   
 }
 }
 
