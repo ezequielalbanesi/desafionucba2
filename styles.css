@@ -1,7 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Press+Start+2P&family=Roboto&display=swap');
+:root{
+     --Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+}
 
-    .attribution 
+
+@media only screen and (min-width: 375px) /* media de mobile*/
+{
+body{
+     background-color: var(--Very-dark-desaturated-blue);
+     background-image: url(images/bg-pattern-top.svg);
+     background-repeat: no-repeat;
+     background-image: url(images/bg-pattern-bottom.svg);
+     background-repeat: no-repeat;
+}
+}
+
+.attribution 
     { font-size: 11px;
-         text-align: center; 
+         text-align: center;
+       
     }
          .attribution a {color: hsl(228, 45%, 44%);
          } 
