@@ -27,7 +27,6 @@ body
      
 }
 
-
 .card{
      width: 350px;
      height: 50%;
@@ -59,10 +58,11 @@ body
      align-self: center;
      line-height: 1em;
      width: 200px;
+     margin-top: 46px;
 
 }
 .data > * {
-     padding: 10px;
+     /*padding: 10px;*/
      flex: 1 100%;
 }
 
@@ -85,3 +85,57 @@ body
      
    
 }
+
+.stats {
+
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+     justify-content: center;
+     align-self: center;
+     align-items: center;
+     margin-right: 50px;
+     font-size: 18px;
+     font-family: 'Kumbh Sans';
+
+}
+
+.seguidores , .likes , .fotos {
+     margin: 5px;
+     margin-left: 40%;
+     display: flex;
+     justify-content: center;
+     align-self: center;
+     align-items: center;
+     font-family: 'Kumbh Sans' ;
+}
+
+.gris {
+     color:hsl(0, 0%, 59%);
+     font-size: 12px;
+}
+.info{
+
+     margin-left: 50px;
+     margin-top: 20px;
+     margin-right: 50px;
+}
+
+
+hr {
+     background-color: hsl(0, 0%, 59%);
+     height: 2px;
+     width: 340px;
+     color: hsl(0, 0%, 59%);
+     margin-top: 40px;
+}
+
+.dataso {
+     display: contents;
+     margin-left: 60px;
+     margin-right: 60px;
+}
+
+
+
+
